@@ -1,0 +1,71 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #444744; 
+}
+
+
+#iconografia{
+
+ height: 10%;
+    width: 20%;
+    border: none;
+    background: #554dee;
+    
+}
+
+#icono{
+      background: #554dee;
+ height: 90%;
+    width: 90%;
+}
+
+
+#encabezado{
+    background: #554dee;
+}
+
+.inputs{
+ 
+    width: 80% ;
+    height: 10%;
+    float:left;
+    border-radius: 5px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    text-shadow: 0px -2px 0px ##bbbbbb;
+    font-size: 15;
+    color: #a6a7aa;
+    margin-left: 10%;
+    margin-top: 5%;
+    
+}
+
+.boton{
+   width: 50%;
+    height: 10%;
+    float: left;
+    border-radius: 5px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    text-shadow: 0px -2px 0px ##bbbbbb;
+    font-size: 12;
+    background: #3636fe; 
+    color: #fff;
+    margin-top: 10%;
+    margin-left: 25%;
+    
+}
+
+.letrero{
+    float: left;
+    width: 80%;
+    height: 15%;
+    font-size: 30;
+    font-family:cursive;
+    margin-top: 5%;
+    margin-left: 10%;
+    color: #cecece;
+}

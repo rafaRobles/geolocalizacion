@@ -1,0 +1,69 @@
+<html>
+
+    <head>
+        <title>MAIN</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link href="estilosMain.css" rel="stylesheet" type="text/css">
+        <script src="funciones.js"></script>
+    </head>
+    
+    <body>
+       
+        
+        <div id="encabezado">
+         <button onclick="irLugares()" id="iconografia"><img id="icono" src="iconografia.png"></button>
+        </div>
+        
+        <h1 id="bienvenido">Bienvenido</h1>
+        
+        
+        <div id="mostrarUbicacion">
+                    
+        </div>
+        
+        <div>
+        
+            <input class="inputs" type="text" id="lugar" placeholder="Ingresa el lugar donde estas"><br>
+            <input class="inputs" type="number" id="precio" placeholder="Ingresa cuanto consumiste"><br>
+            
+            <p class="opcion">Que calificacion le das ?</p>
+           <select class="inputsSelect" id="calificacion">
+                <option>5</option>
+                <option>4</option>
+                <option>3</option>
+                <option>2</option>
+                <option>1</option>
+            </select>
+            
+            <p class="opcion">Selecciona una Categoria</p>
+            <select class="inputsSelect" id="categoria">
+                <option>Hotel</option>
+                <option>Restaurante</option>
+                <option>Bar</option>
+                <option>Tienda Comercial</option>
+                <option>Otro</option>
+            </select>
+            
+            <button class="botones" onclick="guardar()">Guardar</button>
+            
+            <button class="botones" onclick="irLugares()">Ir a lugares guardados</button>
+            
+             <p id="mensaje">Texto de Relleno</p>
+        
+        </div>
+        
+        
+         
+            
+    
+        
+    </body>
+    
+    <script>
+     window.addEventListener('load',mapa,true);
+        
+    </script>
+     
+
+</html>

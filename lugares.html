@@ -1,0 +1,35 @@
+<html>
+
+    <head>
+        <title>LUGARES_GUARDADOS</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+         <link href="estilosLugares.css" rel="stylesheet" type="text/css">
+        <script src="funciones.js"></script>
+    </head>
+    
+    <body>
+        
+         <div id="encabezado">
+         <button onclick="irLugares()" id="iconografia"><img id="icono" src="iconografia.png"></button>
+        </div>
+        
+        <div class="letrero">
+            <h1 id="lugares">Estos son los Lugares<br> Que has Almacenado :) </h1>
+            
+        </div>
+        
+        
+        <div id="lugaresAlmacenados">  
+          
+        </div>
+        
+    </body>
+    
+    <script>
+        window.addEventListener('load',cargarLugares,true);
+    </script>
+    
+     
+
+</html>

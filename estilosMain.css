@@ -1,0 +1,126 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #444744; 
+}
+
+
+#iconografia{
+
+ height: 10%;
+    width: 20%;
+    border: none;
+    background: #554dee;
+    
+}
+
+#icono{
+      background: #554dee;
+ height: 90%;
+    width: 90%;
+}
+
+
+#encabezado{
+    background: #554dee;
+    width: 100%;
+}
+
+#mostrarUbicacion{
+    height: 30%;
+ margin-top: 2%; 
+    float: left;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    margin-right: 25%;
+    
+    
+}
+
+#bienvenido{
+
+    float: left;
+    margin-left: 30%;
+     font-family:cursive;
+    color: #fff;
+    font-size: 22;
+
+}
+
+.opcion{
+    width: 80%;
+    height: 5%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 10%;
+     font-family:cursive;
+    color: #fff;
+}
+
+.inputsSelect{
+ 
+    width: 80% ;
+    height: 5%;
+    float:left;
+    border-radius: 5px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    text-shadow: 0px -2px 0px ##bbbbbb;
+    font-size: 15;
+    color: #a6a7aa;
+    margin-left: 10%;
+    margin-top: 2%;
+    
+}
+
+.inputs{
+ 
+    width: 80% ;
+    height: 5%;
+    float:left;
+    border-radius: 5px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    text-shadow: 0px -2px 0px ##bbbbbb;
+    font-size: 15;
+    color: #a6a7aa;
+    margin-left: 10%;
+    margin-top: 2%;
+    
+}
+
+.botones{
+   width: 35%;
+    height: 8%;
+    float: left;
+    border-radius: 5px;
+    font-family:cursive;
+    letter-spacing: 2px;
+    text-shadow: 0px -2px 0px ##bbbbbb;
+    font-size: 12;
+    background: #3636fe; 
+    color: #fff;
+    margin-top: 2%;
+    margin-left: 10%;
+    
+}
+
+#mensaje{
+ 
+      width: 60%;
+    margin-left: 20%;
+    background: rgba(0,0,0,.5);
+    margin-top: 1%;;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid rgba(255,255,255,.2);
+    font-size: 12px;
+    opacity: 0;
+}
+
